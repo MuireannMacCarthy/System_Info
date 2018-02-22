@@ -5,9 +5,10 @@ Created on 22 February 2018
 '''
 import platform
 
-def main():
-    print(platform.platform())
-    return
+
+def get_platform():
+    s = "the platform is  " + platform.platform()
+    return s
 
 if __name__ == '__main__':
-    main()
+    print(get_platform())

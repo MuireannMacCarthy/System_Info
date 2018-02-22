@@ -11,8 +11,7 @@
 import sys
 from setuptools import setup
 
-entry_points =
-[console_scripts]
+entry_points =[console_scripts]
 script_name = systeminfo.main:run
 
 
@@ -21,7 +20,7 @@ def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
     sphinx = ['sphinx'] if needs_sphinx else []
     setup(setup_requires=['pyscaffold>=3.0a0,<3.1a0'] + sphinx,
-          entry_points=entry_points,
+          entry_points= {'console_scripts':['comp_30670_systeminfo=systeminfo.main:main']},
           use_pyscaffold=True)
 
 
