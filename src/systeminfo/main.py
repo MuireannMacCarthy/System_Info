@@ -7,8 +7,16 @@ import platform
 
 
 def get_platform():
-    s = "the platform is  " + platform.platform()
-    return s
+   print("The platform is ", platform.platform())
+
 
 if __name__ == '__main__':
-    print(get_platform())
+    get_platform()
+
+
+
+
+
+
+
+

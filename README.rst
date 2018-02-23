@@ -3,14 +3,14 @@ systeminfo
 ==========
 
 
-Add a short description here!
+This python project prints the working directory of whatever machine it is run on.
 
 
 Description
 ===========
 
-A longer description of your project goes here...
-
+When the user runs the main.py file in this python project the platform information for what
+machine the code is run on will be displayed in the console.
 
 Note
 ====
